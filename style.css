@@ -5,7 +5,7 @@
    	background-color: #006aff;
     border-radius: 5px;
     border: 5px solid #666;
-    margin: 3px 1px 1px 1px;
+    margin: 3px 3px 3px 3px;
     background: blue;
 
    }
@@ -14,6 +14,7 @@
   	.login:hover {
   		background-color: #205db3;
        border-radius: 5px;
+       margin: 3px 3px 3px 3px;
        
   	}
 
@@ -37,10 +38,10 @@
    }
 
 .input {
-  padding: 5px 1px;
-  font-size: 7px; 
+  padding: 10px 2px;
+  font-size: 15px; 
   margin-right: 1%;
-  margin: 1px 1px 2px 1px;
+  margin: 1px 1px 6px 1px;
 
 }
 
@@ -55,14 +56,14 @@
    }
    
    .wraper {
-    padding: 5px 8px;
+    padding: 1px 1px;
     background: white;  
     border: 3px solid #000; 
     border-radius: 5px; 
     text-align: center;
-    margin-top: 20%;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-top: 50%;
+    margin-left: 15%;
+    margin-right: 13%;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
     
