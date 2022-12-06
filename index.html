@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css"> <!--Не забудь поставить свой href если меняешь login.css!-->
+<link rel="shorcut icon" type="image/x-icon" href="uvps-ico"> <!--Не забудь вставить иконку со своего пк!
+-->
+<link rel="stylesheet" href="media.css">
+<head>
+
+	<title>Войти в систему - UVPS</title>
+	
+
+</head>
+<body>
+
+
+
+<!--Свою ссылку вставь в location на 22 строке-->
+<script language="javascript">
+function pasuser(form) { 
+if (form.id.value=="Admin") {
+if (form.pass.value=="12345") {              
+location="naebalovo.com" 
+} else {
+alert("Неправельное имя пользователя или пароль")
+}
+} else {  alert("Неправельное имя пользователя или пароль")
+}
+}
+</script>
+
+<div class="wraper">
+<center><h1 style="margin-top: 1%">Войти в систему</h1></center>
+<center><div class="wraper2">
+<form name="login"> <!-- не изменять-->
+<input class="input"
+name="id" type="text" placeholder="Admin" > <!-- inpup...-->
+<input class="input" name="pass"
+type="password" placeholder="Введите пароль" >
+<input class="login" type="button" value="Войти"onClick="pasuser(this.form)">
+</form>
+</div></center></div>
+
+
+</body>
