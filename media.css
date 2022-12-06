@@ -556,7 +556,7 @@ body {
 }
 }
 
-/* Устройство Артема*/ @media screen and (max-width: 435px) {
+/* Устройство Артема*/ @media screen and (max-width: 432px) {
 	button .login {
    	
    	color: white;
