@@ -1,0 +1,456 @@
+/* Ноутбук L*/ @media screen and (max-width: 1440px) {
+	button .login {
+   	
+   	color: white;
+   	font-size: 1px;
+   	background-color: #006aff;
+    border-radius: 5px;
+    border: 5px solid #666;
+    margin: 3px 3px 3px 3px;
+    background: blue;
+
+   }
+
+
+  	.login:hover {
+  	background-color: #ced3db;
+    margin: 0px 0px 0px 0px;
+    border-radius: 3px;   
+  	}
+
+
+   .login:active {
+    
+    background-color: yellow;
+    border-radius: 5px solid #666;
+
+
+ }
+.input {
+  padding: 11px 2px;
+  font-size: 20px; 
+  margin: 1px 1px 6px 1px;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+
+.input:hover {
+    padding: 10px 1px;
+    background: white; 
+    border: 3px solid black; 
+    border-radius: 5px; 
+    text-align: left;
+    border-color: black;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin: 0px 0px 5px 0px;
+   }
+
+   .input:focus {
+   	border-color: blue;
+   }
+
+   
+   .wraper {
+    padding: 80px 10px;
+    background: white;  
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 38%;
+    margin-right: 41%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    
+   }
+
+.footer {
+  background: #212121;
+  color: white;
+  font-size: 10px;
+  margin: 22px 0px 0px 0px;
+}
+
+.header {
+  background: #212121;
+  color: white;
+  font-size: 10px;
+  margin: 0px 0px 0px 0px;
+}
+body {
+	background-color: #e1e1e1;
+}
+}
+
+/* Ноутбук */ @media screen and (max-width: 1024px) {
+	button .login {
+   	
+   	color: white;
+   	font-size: 1px;
+   	background-color: #006aff;
+    border-radius: 5px;
+    border: 5px solid #666;
+    margin: 3px 3px 3px 3px;
+    background: blue;
+
+   }
+
+
+  	.login:hover {
+  	background-color: #ced3db;
+    margin: 0px 0px 0px 0px;
+    border-radius: 3px;   
+  	}
+
+
+   .login:active {
+    
+    background-color: yellow;
+    border-radius: 5px solid #666;
+
+
+   }
+
+ 
+   .login:focus {
+    
+    transition-delay: 1s;
+    background-color: red;
+    border-radius: 5px solid #666;
+
+
+   }
+
+.input {
+  padding: 11px 2px;
+  font-size: 15px; 
+  margin: 1px 1px 6px 1px;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+
+.input:hover {
+    padding: 10px 1px;
+    background: white; 
+    border: 3px solid black; 
+    border-radius: 5px; 
+    text-align: left;
+    border-color: black;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin: 0px 0px 5px 0px;
+   }
+
+   .input:focus {
+   	border-color: blue;
+   }
+
+   
+   .wraper {
+    padding: 50px 10px;
+    background: white;  
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 41%;
+    margin-right: 39%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    
+   }
+
+.footer {
+  background: #212121;
+  color: white;
+  font-size: 10px;
+  margin: 22px 0px 0px 0px;
+}
+
+.header {
+  background: #212121;
+  color: white;
+  font-size: 10px;
+  margin: 0px 0px 0px 0px;
+}
+}
+/* Планшет*/ @media screen and (max-width: 768px) {
+	button .login {
+   	
+   	color: white;
+   	font-size: 1px;
+   	background-color: #006aff;
+    border-radius: 5px;
+    border: 5px solid #666;
+    margin: 3px 3px 3px 3px;
+    background: blue;
+
+   }
+
+
+  	.login:hover {
+  	background-color: #ced3db;
+    margin: 3px 3px 3px 3px;
+    border-radius: 3px;   
+  	}
+
+
+   .login:active {
+    
+    background-color: yellow;
+    border-radius: 5px solid #666;
+
+
+   }
+
+ 
+   .login:focus {
+    
+    transition-delay: 1s;
+    background-color: red;
+    border-radius: 5px solid #666;
+
+
+   }
+
+.input {
+  padding: 11px 2px;
+  font-size: 20px; 
+  margin: 1px 1px 6px 1px;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+
+.input:hover {
+    padding: 10px 1px;
+    background: white; 
+    border: 3px solid black; 
+    border-radius: 5px; 
+    text-align: left;
+    border-color: black;
+    margin-right: 0%;
+    margin-left: 0%;
+   }
+
+   .input:focus {
+   	border-color: blue;
+   }
+
+   
+   .wraper {
+    padding: 80px 10px;
+    background: white;  
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 33%;
+    margin-right: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    
+   }
+
+.footer {
+  background: #212121;
+  color: white;
+  font-size: 10px;
+  margin: 22px 0px 0px 0px;
+}
+
+.header {
+  background: #212121;
+  color: white;
+  font-size: 10px;
+  margin: 0px 0px 0px 0px;
+}
+}
+/* Cреднее моб.устройство*/ @media screen and (max-width: 375px) {
+	button .login {
+   	
+   	color: white;
+   	font-size: 1px;
+   	background-color: #006aff;
+    border-radius: 5px;
+    border: 5px solid #666;
+    margin: 3px 3px 3px 3px;
+    background: blue;
+
+   }
+
+
+  	.login:hover {
+  	background-color: #ced3db;
+    margin: 3px 3px 3px 3px;
+    border-radius: 3px;   
+  	}
+
+
+   .login:active {
+    
+    background-color: yellow;
+    border-radius: 5px solid #666;
+
+
+   }
+
+ 
+   .login:focus {
+    
+    transition-delay: 1s;
+    background-color: red;
+    border-radius: 5px solid #666;
+
+
+   }
+
+.input {
+  padding: 11px 2px;
+  font-size: 1px; 
+  margin: 1px 1px 6px 1px;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+
+.input:hover {
+    padding: 10px 1px;
+    background: white; 
+    border: 3px solid black; 
+    border-radius: 5px; 
+    text-align: left;
+    border-color: black;
+    margin-right: 0%;
+    margin-left: 0%;
+   }
+
+   .input:focus {
+   	border-color: blue;
+   }
+
+   
+   .wraper {
+    padding: 30px 10px;
+    background: white;  
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 30%;
+    margin-right: 27%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    
+   }
+
+.footer {
+  background: #212121;
+  color: white;
+  font-size: 10px;
+  margin: 22px 0px 0px 0px;
+}
+
+.header {
+  background: #212121;
+  color: white;
+  font-size: 10px;
+  margin: 0px 0px 0px 0px;
+}
+}
+/* Большое моб.устройство*/ @media screen and (max-width: 425px) {
+	button .login {
+   	
+   	color: white;
+   	font-size: 1px;
+   	background-color: #006aff;
+    border-radius: 5px;
+    border: 5px solid #666;
+    margin: 3px 3px 3px 3px;
+    background: blue;
+
+   }
+
+
+  	.login:hover {
+  	background-color: #ced3db;
+    margin: 3px 3px 3px 3px;
+    border-radius: 3px;   
+  	}
+
+
+   .login:active {
+    
+    background-color: yellow;
+    border-radius: 5px solid #666;
+
+
+   }
+
+ 
+   .login:focus {
+    
+    transition-delay: 1s;
+    background-color: red;
+    border-radius: 5px solid #666;
+
+
+   }
+
+.input {
+  padding: 11px 2px;
+  font-size: 12px; 
+  margin: 1px 1px 6px 1px;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+
+.input:hover {
+    padding: 10px 1px;
+    background: white; 
+    border: 3px solid black; 
+    border-radius: 5px; 
+    text-align: left;
+    border-color: black;
+    margin-right: 0%;
+    margin-left: 0%;
+   }
+
+   .input:focus {
+   	border-color: blue;
+   }
+
+   
+   .wraper {
+    padding: 30px 10px;
+    background: white;  
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 30%;
+    margin-right: 27%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    
+   }
+
+.footer {
+  background: #212121;
+  color: white;
+  font-size: 10px;
+  margin: 22px 0px 0px 0px;
+}
+
+.header {
+  background: #212121;
+  color: white;
+  font-size: 10px;
+  margin: 0px 0px 0px 0px;
+}
+   }
+}

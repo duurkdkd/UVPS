@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css"> 
+<link rel="shorcut icon" type="image/x-icon" href="uvps-ico">
+<link rel="stylesheet" href="media.css">
+<head>
+
+	<title>Войти в систему - UVPS</title>
+	
+
+</head>
+<body>
+
+
+
+<script language="javascript">
+function pasuser(form) { 
+if (form.id.value=="Admin") {
+if (form.pass.value=="12345") {              
+location="https://www.youtube.com/watch?v=MF_cYq4EixU" /* Свой location */
+} else {
+alert("Неправельное имя пользователя или пароль")
+}
+} else {  alert("Неправельное имя пользователя или пароль")
+}
+}
+function myFunction() {
+  let text = document.getElementById("demo").innerHTML;
+  document.getElementById("demo").innerHTML =
+  text.replace("Войти","Загрузка...");
+}
+</script>
+
+<div class="wraper">
+<center><h1 style="margin-top: 1%">Войти в систему</h1></center>
+<center><div class="wraper2">
+<form name="login"> 
+<input class="input"
+name="id" type="text" placeholder="Введите имя" > <!-- inpup...-->
+<input class="input" name="pass"
+type="password" placeholder="Введите пароль" >
+<button id="demo" class="login" type="button" onClick="pasuser(this.form); myFunction(); reload_interval(1000);">Войти</button>
+</form>
+
+<script>
+function myFunction() {
+  let text = document.getElementById("demo").innerHTML;
+  document.getElementById("demo").innerHTML =
+  text.replace("Войти","Загрузка...");
+}
+</script>
+
+<script>
+function reload_interval(time){
+	setTimeout(function(){
+		location.reload();
+	}, time);
+}
+</script>
+
+
+</div></center></div>
+
+
+</body>
